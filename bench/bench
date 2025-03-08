@@ -5,7 +5,7 @@ E=
 
 $E ./sregex --thompson --thompson-jit --pike $1 $2
 
-./re1 --thompson --pike $1 $2
+# ./re1 --thompson --pike $1 $2
 
 $E ./pcre --default --jit --dfa $1 $2
 
